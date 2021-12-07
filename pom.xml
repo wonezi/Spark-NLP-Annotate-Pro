@@ -8,3 +8,8 @@
     <groupId>nlp.spark</groupId>
     <artifactId>annotate</artifactId>
     <version>1.0</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <plugin.compiler.version>2.4</plugin.compiler.version>
+        <plugin.surefire.version>2.10</plugin.surefire.version>
