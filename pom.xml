@@ -13,3 +13,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <plugin.compiler.version>2.4</plugin.compiler.version>
         <plugin.surefire.version>2.10</plugin.surefire.version>
+        <plugin.scala-maven.version>3.2.2</plugin.scala-maven.version>
+        <plugin.shade.version>2.3</plugin.shade.version>
+
+        <scala.tools.version>2.11</scala.tools.version>
+        <scala.version>2.11.8</scala.version>
