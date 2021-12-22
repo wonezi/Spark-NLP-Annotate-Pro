@@ -48,3 +48,8 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- JUnit Testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
