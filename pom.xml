@@ -34,3 +34,9 @@
         </dependency>
 
         <!-- Testing -->
+
+        <!-- scalatest -->
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_${scala.tools.version}</artifactId>
+            <version>${scalatest.version}</version>
