@@ -99,3 +99,7 @@
                         <jvmArg>-Xmx4G</jvmArg>
                     </jvmArgs>
                 </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
