@@ -93,3 +93,9 @@
                             </args>
                         </configuration>
                     </execution>
+                </executions>
+                <configuration>
+                    <jvmArgs>
+                        <jvmArg>-Xmx4G</jvmArg>
+                    </jvmArgs>
+                </configuration>
