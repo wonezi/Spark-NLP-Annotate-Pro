@@ -12,3 +12,7 @@ case class Annotation(aType: String, begin: Int, end: Int, metadata: Map[String,
 
 /**
   * Companion object for Annotation type
+  */
+object Annotation {
+  /**
+    * Annotation ordering
