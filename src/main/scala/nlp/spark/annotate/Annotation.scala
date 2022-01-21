@@ -16,3 +16,10 @@ case class Annotation(aType: String, begin: Int, end: Int, metadata: Map[String,
 object Annotation {
   /**
     * Annotation ordering
+    * @tparam A Some annotation subtype (for our examples we will only use Annotation)
+    * @return The [[Ordering]] of annotations
+    */
+  implicit  def orderingByName[A <: Annotation]: Ordering[A] = {
+    Ordering.by(a => (a.begin, -a.end, a.aType))
+  }
+}
