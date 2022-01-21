@@ -7,3 +7,8 @@ package nlp.spark.annotate
   * @param begin the index of the first character of the annotation
   * @param end the index after the last charactor of the annotation
   * @param metadata the metadata for the annotation (e.g. lemma, sentiment, etx.)
+  */
+case class Annotation(aType: String, begin: Int, end: Int, metadata: Map[String, String] = Map())
+
+/**
+  * Companion object for Annotation type
