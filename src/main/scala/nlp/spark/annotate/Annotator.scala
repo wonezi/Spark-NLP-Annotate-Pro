@@ -1,3 +1,3 @@
 package nlp.spark.annotate
 
-import scala.collection.immu
+import scala.collection.immut
