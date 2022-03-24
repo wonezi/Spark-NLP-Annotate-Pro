@@ -3,4 +3,4 @@ package nlp.spark.annotate
 import scala.collection.immutable.TreeSet
 
 /**
-  * This trait represents an function that produces annota
+  * This trait represents an function that produces annotations
