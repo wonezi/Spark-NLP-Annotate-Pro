@@ -7,4 +7,4 @@ import scala.collection.immutable.TreeSet
   */
 trait Annotator {
   /**
-    * This takes a t
+    * This takes a text, o
