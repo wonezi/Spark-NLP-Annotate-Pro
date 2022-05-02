@@ -7,4 +7,4 @@ import scala.collection.immutable.TreeSet
   */
 trait Annotator {
   /**
-    * This takes a text, optional metadata, and optional annotation
+    * This takes a text, optional metadata, and optional annotations an
