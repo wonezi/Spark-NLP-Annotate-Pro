@@ -8,4 +8,4 @@ import scala.collection.immutable.TreeSet
 trait Annotator {
   /**
     * This takes a text, optional metadata, and optional annotations and returns a sequence of new annotations
-    * @param text the 
+    * @param text the text 
