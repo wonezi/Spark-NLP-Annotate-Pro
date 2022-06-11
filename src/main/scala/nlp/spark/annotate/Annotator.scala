@@ -9,4 +9,4 @@ trait Annotator {
   /**
     * This takes a text, optional metadata, and optional annotations and returns a sequence of new annotations
     * @param text the text to be annotated
-    * @param metadata the metadata associated 
+    * @param metadata the metadata associated with
