@@ -11,4 +11,4 @@ trait Annotator {
     * @param text the text to be annotated
     * @param metadata the metadata associated with the text
     * @param annotations the annotations alread found in the text
-    * @return a sequence of new annotations found
+    * @return a sequence of new annotations found in 
