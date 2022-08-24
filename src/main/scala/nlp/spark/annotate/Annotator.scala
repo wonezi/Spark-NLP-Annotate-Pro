@@ -13,4 +13,4 @@ trait Annotator {
     * @param annotations the annotations alread found in the text
     * @return a sequence of new annotations found in the text
     */
-  
+  def ann
