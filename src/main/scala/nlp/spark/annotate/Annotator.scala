@@ -12,4 +12,4 @@ trait Annotator {
     * @param metadata the metadata associated with the text
     * @param annotations the annotations alread found in the text
     * @return a sequence of new annotations found in the text
-  
+    
