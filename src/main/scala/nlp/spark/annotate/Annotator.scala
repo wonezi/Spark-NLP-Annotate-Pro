@@ -14,4 +14,5 @@ trait Annotator {
     * @return a sequence of new annotations found in the text
     */
   def annotate(
-    text: Str
+    text: String,
+ 
