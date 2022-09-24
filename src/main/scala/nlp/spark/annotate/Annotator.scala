@@ -15,4 +15,5 @@ trait Annotator {
     */
   def annotate(
     text: String,
-    metadata: Map[String, String] = M
+    metadata: Map[String, String] = Map(),
+  
