@@ -16,4 +16,4 @@ trait Annotator {
   def annotate(
     text: String,
     metadata: Map[String, String] = Map(),
-    annotations: Tree
+    annotations: TreeSet[An
