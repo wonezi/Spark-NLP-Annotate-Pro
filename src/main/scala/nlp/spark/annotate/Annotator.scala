@@ -16,4 +16,5 @@ trait Annotator {
   def annotate(
     text: String,
     metadata: Map[String, String] = Map(),
-    annotations: TreeSet[Annotation] = TreeSet()): Seq[Annotatio
+    annotations: TreeSet[Annotation] = TreeSet()): Seq[Annotation]
+
