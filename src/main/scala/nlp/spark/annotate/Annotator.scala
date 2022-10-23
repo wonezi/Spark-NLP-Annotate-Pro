@@ -18,3 +18,4 @@ trait Annotator {
     metadata: Map[String, String] = Map(),
     annotations: TreeSet[Annotation] = TreeSet()): Seq[Annotation]
 
+  /**
