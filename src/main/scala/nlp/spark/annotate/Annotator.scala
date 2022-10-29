@@ -19,3 +19,4 @@ trait Annotator {
     annotations: TreeSet[Annotation] = TreeSet()): Seq[Annotation]
 
   /**
+    
