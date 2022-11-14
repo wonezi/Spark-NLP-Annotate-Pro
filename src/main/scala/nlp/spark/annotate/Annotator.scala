@@ -19,4 +19,4 @@ trait Annotator {
     annotations: TreeSet[Annotation] = TreeSet()): Seq[Annotation]
 
   /**
-    * This takes a document and returns a se
+    * This takes a document and returns a sequence
