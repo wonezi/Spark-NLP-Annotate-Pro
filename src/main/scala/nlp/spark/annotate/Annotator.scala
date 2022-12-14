@@ -20,4 +20,4 @@ trait Annotator {
 
   /**
     * This takes a document and returns a sequence of new annotations
-    * @pa
+    * @param do
