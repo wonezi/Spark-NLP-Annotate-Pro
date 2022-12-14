@@ -19,4 +19,5 @@ trait Annotator {
     annotations: TreeSet[Annotation] = TreeSet()): Seq[Annotation]
 
   /**
-    * This takes a document and returns a sequence of new annotation
+    * This takes a document and returns a sequence of new annotations
+    * @pa
