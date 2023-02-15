@@ -21,4 +21,4 @@ trait Annotator {
   /**
     * This takes a document and returns a sequence of new annotations
     * @param document the document to be annotated
-    * @return a sequen
+    * @return a sequence of 
