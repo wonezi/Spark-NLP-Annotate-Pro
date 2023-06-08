@@ -23,4 +23,4 @@ trait Annotator {
     * @param document the document to be annotated
     * @return a sequence of new annotations found in the text
     */
-  def annotate(document: Document): Seq[Annotation] = annotate(document.text, document.metadata, docu
+  def annotate(document: Document): Seq[Annotation] = annotate(document.text, document.metadata, document.
