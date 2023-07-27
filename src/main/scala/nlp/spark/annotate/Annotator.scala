@@ -26,4 +26,4 @@ trait Annotator {
   def annotate(document: Document): Seq[Annotation] = annotate(document.text, document.metadata, document.annotations)
 
   /**
-    * This takes a document and returns a new do
+    * This takes a document and returns a new documen
