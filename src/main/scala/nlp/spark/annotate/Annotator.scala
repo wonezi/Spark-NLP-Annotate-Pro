@@ -27,4 +27,4 @@ trait Annotator {
 
   /**
     * This takes a document and returns a new document with new annotations (if any new ones were found)
-    * @param doc
+    * @param documen
