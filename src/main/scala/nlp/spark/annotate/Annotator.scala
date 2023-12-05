@@ -28,4 +28,4 @@ trait Annotator {
   /**
     * This takes a document and returns a new document with new annotations (if any new ones were found)
     * @param document the document to be annotated
-    * @return a new document with new an
+    * @return a new document with new annot
