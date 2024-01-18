@@ -30,4 +30,4 @@ trait Annotator {
     * @param document the document to be annotated
     * @return a new document with new annotations
     */
-  def apply(document: Document): Document = document.copy(anno
+  def apply(document: Document): Document = document.copy(annotatio
