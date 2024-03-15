@@ -10,3 +10,6 @@ import scala.collection.immutable.TreeSet
   * @param metadata the metadata associated with the document
   * @param annotations the annotations found in the document
   */
+case class Document(
+  docName: String,
+  text: String,
