@@ -13,3 +13,5 @@ import scala.collection.immutable.TreeSet
 case class Document(
   docName: String,
   text: String,
+  metadata: Map[String, String] = Map(),
+  annotations: TreeSet[Annotation] = TreeSet())
