@@ -14,3 +14,7 @@ class AnnotationTest extends FunSuite {
     assert(ordering.equiv(Annotation("a", 0, 10), Annotation("a", 0, 10)))
     assert(ordering.lt(Annotation("a", 0, 10), Annotation("a", 1, 10)))
     assert(ordering.lt(Annotation("a", 0, 11), Annotation("a", 0, 10)))
+    assert(ordering.lt(Annotation("a", 0, 10), Annotation("b", 0, 10)))
+  }
+
+  test("get covering") {
