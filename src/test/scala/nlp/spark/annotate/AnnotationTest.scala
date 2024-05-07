@@ -18,3 +18,6 @@ class AnnotationTest extends FunSuite {
   }
 
   test("get covering") {
+    println(TreeSet(Annotation("a", 0, 10), Annotation("a", 1, 10)).range(Annotation("", 0, 10), Annotation("", 0, 10)))
+  }
+}
